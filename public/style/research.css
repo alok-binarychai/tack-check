@@ -1,0 +1,665 @@
+/* 
+Re written by Prasenjeet Kumar
+Contact: prasenjeetsymon@gmail.com
+GitHub: prasenjeet-simon
+*/
+/* 
+
+
+
+
+
+*/
+/* For the Hero Section */
+.heroSectionSlideShow {
+  height: 500px;
+}
+
+.heroSectionNew {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url("https://th.bing.com/th/id/R.cc56e924de29be0226edd5d7d20413e9?rik=qSk3f6CniXTlIA&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f2366358%2fimages%2fo-TEACHER-IN-CLASSROOM-facebook.jpg&ehk=%2boOx5ONnLGfg1M5uM%2bGjsAvvs7TA9%2bqqzTG7Mggd7V0%3d&risl=&pid=ImgRaw&r=0");
+  background-position: center center;
+  background-size: cover;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.heroSectionNew > div:nth-of-type(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: +10;
+  background-color: rgba(11, 11, 11, 0.5); /* Set the desired opacity value */
+}
+
+.heroSectionNew > div:nth-of-type(2) {
+  position: absolute;
+  top: auto;
+  left: auto;
+  right: auto;
+  width: 80%;
+  height: 100%;
+  z-index: +11;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroSectionNew > div:nth-of-type(2) > div:nth-of-type(1) {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.heroSectionNew > div:nth-of-type(2) > div:nth-of-type(2) {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: var(--heading-font);
+}
+
+.heroSectionNew > div:nth-of-type(2) > div:nth-of-type(3) {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--body-font);
+}
+
+.heroSectionNew > div:nth-of-type(2) > div {
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+/* 
+
+
+
+
+
+
+*/
+/* Our commitment to research and dev section */
+.commitmentToResearchAndDevelopment {
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.commitmentToResearchAndDevelopment > div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 10px;
+}
+
+.commitmentToResearchAndDevelopment > div > div:nth-of-type(1) {
+  padding: 100px 50px 100px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.commitmentToResearchAndDevelopment > div > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.commitmentToResearchAndDevelopment > div > div:nth-of-type(2) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.commitmentToResearchAndDevelopment
+  > div
+  > div:nth-of-type(1)
+  > div:nth-of-type(1) {
+  font-size: 3rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  text-align: start;
+}
+
+.commitmentToResearchAndDevelopment
+  > div
+  > div:nth-of-type(1)
+  > div:nth-of-type(2) {
+  font-size: 1.5rem;
+  font-family: var(--body-font);
+  font-weight: 400;
+  margin: 5px 0px;
+  text-align: start;
+  margin-bottom: 35px;
+  line-height: 2rem;
+}
+
+/* Area of research and development */
+.areaOfResearchAndDevelopment {
+  background-color: aliceblue;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.areaOfResearchAndDevelopment > div {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.areaOfResearchAndDevelopment > div > div:nth-of-type(1) {
+  font-size: 3rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+}
+
+.areaOfResearchAndDevelopment > div > div:nth-of-type(2) {
+  font-size: 1.5rem;
+  font-family: var(--body-font);
+  font-weight: 400;
+  margin: 5px 0px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.areaOfResearchAndDevelopment > div > hr {
+  width: 5%;
+  margin: 20px auto;
+  height: 5px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.areaOfResearchAndDevelopment > div > div:nth-of-type(3) img {
+  width: 50px;
+  height: auto;
+  margin: 20px 0px 0px 0px;
+}
+
+/* Section With Right Image */
+.sectionWithRightImgae {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionWithRightImgae > div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 10px;
+}
+
+.sectionWithRightImgae > div > div:nth-of-type(1) {
+  padding: 100px 50px 100px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sectionWithRightImgae > div > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionWithRightImgae > div > div:nth-of-type(2) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.sectionWithRightImgae > div > div:nth-of-type(1) > div:nth-of-type(1) {
+  color: #cb2525;
+  font-size: 3rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  text-align: start;
+}
+
+.sectionWithRightImgae > div > div:nth-of-type(1) > div:nth-of-type(2) img {
+  width: 60px;
+  height: auto;
+  margin: 20px 0px 20px 0px;
+}
+
+.sectionWithRightImgae > div > div:nth-of-type(1) > div:nth-of-type(3) {
+  font-size: 1.5rem;
+  font-family: var(--body-font);
+  font-weight: 400;
+  margin: 5px 0px;
+  text-align: start;
+  margin-bottom: 35px;
+  line-height: 2rem;
+}
+
+/* Section with left image */
+.sectionWithLeftImgae {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 245, 245);
+}
+
+.sectionWithLeftImgae > div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-gap: 10px;
+}
+
+.sectionWithLeftImgae > div > div:nth-of-type(2) {
+  padding: 100px 100px 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sectionWithLeftImgae > div > div:nth-of-type(2) > div:nth-of-type(1) {
+  color: #46ae78;
+  font-size: 3rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  text-align: start;
+}
+
+.sectionWithLeftImgae > div > div:nth-of-type(2) > div:nth-of-type(2) img {
+  width: 60px;
+  height: auto;
+  margin: 20px 0px 20px 0px;
+}
+
+.sectionWithLeftImgae > div > div:nth-of-type(2) > div:nth-of-type(3) {
+  font-size: 1.5rem;
+  font-family: var(--body-font);
+  font-weight: 400;
+  margin: 5px 0px;
+  text-align: start;
+  line-height: 2rem;
+}
+
+.sectionWithLeftImgae > div > div:nth-of-type(1) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* Our projects */
+.ourProjects {
+  padding: 100px 0px 0px 0px;
+}
+
+.ourProjects > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourProjects > div:nth-of-type(1) > div {
+  width: 60%;
+  margin: 0px 0px 60px 0px;
+}
+
+.ourProjects > div:nth-of-type(1) > div > div:nth-of-type(1) {
+  font-size: 3rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+}
+
+.ourProjects > div:nth-of-type(1) > div > hr {
+  width: 5%;
+  margin: 20px auto;
+  height: 5px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.ourProjects > div:nth-of-type(1) > div > div:nth-of-type(2) {
+  font-size: 1.5rem;
+  font-family: var(--body-font);
+  font-weight: 400;
+  margin: 5px 0px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.ourProjects > div:nth-of-type(2) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+
+.projectItemRightImage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  background-color: rgb(240, 240, 240);
+}
+
+.projectItemRightImage > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.projectItemRightImage > div:nth-of-type(1) > .projectTitle {
+  font-size: 2rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+}
+
+.projectItemRightImage > div:nth-of-type(1) > .projectDescription {
+  font-size: 1.5rem;
+  font-family: var(--body-font);
+  font-weight: 400;
+  margin: 5px 0px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.projectItemRightImage > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectItemRightImage > div:nth-of-type(2) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* projectItemLeftImage */
+.projectItemLeftImage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  background-color: rgb(11, 134, 11);
+  color: white;
+}
+
+.projectItemLeftImage > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.projectItemLeftImage > div:nth-of-type(2) > .projectTitle {
+  font-size: 2rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+}
+
+.projectItemLeftImage > div:nth-of-type(2) > .projectDescription {
+  font-size: 1.5rem;
+  font-family: var(--body-font);
+  font-weight: 400;
+  margin: 5px 0px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.projectItemLeftImage > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectItemLeftImage > div:nth-of-type(1) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* For the consultation and training */
+.consultationAndTraining {
+  padding: 0px;
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.consultationAndTraining > div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.consultationAndTraining > div:nth-of-type(1) > div:nth-of-type(1) {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.consultationAndTraining > div > div:nth-of-type(1) > div:nth-of-type(1) {
+  font-size: 3rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  text-align: start;
+}
+
+.consultationAndTraining > div > div:nth-of-type(1) > div:nth-of-type(2) {
+  font-size: 1.5rem;
+  font-family: var(--body-font);
+  font-weight: 400;
+  margin: 5px 0px;
+  text-align: start;
+  line-height: 2rem;
+}
+
+.consultationAndTraining > div > div:nth-of-type(1) > div:nth-of-type(3) {
+  font-size: 0.9rem;
+  font-family: var(--body-font);
+  font-weight: 400;
+  margin: 15px 0px;
+  text-align: start;
+}
+
+.consultationAndTraining > div > div:nth-of-type(1) hr {
+  width: 5%;
+  margin: 20px 0px;
+  height: 5px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.consultationAndTraining > div > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.consultationAndTraining > div > div:nth-of-type(2) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left center;
+}
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 768px) {
+  .ourProjects > div:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    grid-template-areas: "item1" "item3" "item2" "item4";
+  }
+
+  .projectItem-0 {
+    grid-area: item1;
+  }
+
+  .projectItem-1 {
+    grid-area: item2;
+  }
+
+  .projectItem-2 {
+    grid-area: item3;
+  }
+
+  .projectItem-3 {
+    grid-area: item4;
+  }
+
+  .heroSectionNew > div:nth-of-type(2) {
+    padding: 25px 20px;
+  }
+
+  .heroSectionNew > div:nth-of-type(2) > div:nth-of-type(2) {
+    font-size: 3rem;
+  }
+
+  .heroSectionNew > div:nth-of-type(2) > div:nth-of-type(3) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Raleway" sans-serif;
+  }
+
+  .heroSectionSlideShow {
+    height: 350px;
+  }
+
+  .commitmentToResearchAndDevelopment > div {
+    grid-gap: 0px;
+    grid-template-columns: 1fr 0fr;
+  }
+
+  .commitmentToResearchAndDevelopment > div > div:nth-of-type(1) {
+    padding: 80px 30px 30px 30px;
+    text-align: center;
+  }
+
+  .commitmentToResearchAndDevelopment
+    > div
+    > div:nth-of-type(1)
+    > div:nth-of-type(1),
+  .commitmentToResearchAndDevelopment
+    > div
+    > div:nth-of-type(1)
+    > div:nth-of-type(2) {
+    text-align: center;
+  }
+
+  .areaOfResearchAndDevelopment > div {
+    width: 90%;
+  }
+
+  .sectionWithRightImgae > div {
+    grid-template-columns: 1fr 0fr;
+    grid-gap: 0px;
+    text-align: center;
+  }
+
+  .sectionWithRightImgae > div > div:nth-of-type(1) {
+    padding: 20px;
+    align-items: center;
+  }
+
+  .sectionWithRightImgae > div > div:nth-of-type(1) > div:nth-of-type(1) {
+    text-align: center;
+  }
+
+  .sectionWithRightImgae > div > div:nth-of-type(1) > div:nth-of-type(3) {
+    text-align: center;
+  }
+
+  .sectionWithLeftImgae > div {
+    grid-template-columns: 0fr 1fr;
+    grid-gap: 0px;
+  }
+
+  .sectionWithLeftImgae > div > div:nth-of-type(2) {
+    padding: 20px;
+    align-items: center;
+  }
+
+  .sectionWithLeftImgae > div > div:nth-of-type(2) > div:nth-of-type(1) {
+    text-align: center;
+  }
+
+  .sectionWithLeftImgae > div > div:nth-of-type(2) > div:nth-of-type(3) {
+    text-align: center;
+  }
+
+  .ourProjects {
+    padding: 50px 0px 0px 0px;
+  }
+
+  .ourProjects > div:nth-of-type(1) > div {
+    width: 90%;
+  }
+
+  .consultationAndTraining > div {
+    grid-template-columns: 1fr 0fr;
+    grid-gap: 0px;
+  }
+
+  .consultationAndTraining > div:nth-of-type(1) > div:nth-of-type(1) {
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .consultationAndTraining > div > div:nth-of-type(1) > div:nth-of-type(1),
+  .consultationAndTraining > div > div:nth-of-type(1) > div:nth-of-type(2),
+  .consultationAndTraining > div > div:nth-of-type(1) > div:nth-of-type(3) {
+    text-align: center;
+  }
+
+  .consultationAndTraining > div > div:nth-of-type(1) hr {
+    width: 15%;
+  }
+}

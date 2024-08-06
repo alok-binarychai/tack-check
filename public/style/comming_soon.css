@@ -1,0 +1,47 @@
+.commingSoonPop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: +100;
+  background-image: url("../img/BLUE_BACK.png");
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.commingSoonPop > section:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.commingSoonPop > section:nth-of-type(1) > div:nth-of-type(1) {
+  flex: 1;
+}
+
+.commingSoonPop > section:nth-of-type(1) > div:nth-of-type(2) span {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+}
+
+.commingSoonPop section:nth-of-type(2) {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,181 @@
+/* For the what is AMA created by prasenjeet symon */
+.whatIsAmaSectionNew {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  background-color: #c40b0b;
+  justify-content: center;
+}
+
+.whatIsAmaSectionNew > section {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 0px;
+}
+
+.whatIsAmaSectionNew > section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.whatIsAmaSectionNew > section > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatIsAmaSectionNew > section > div:nth-of-type(1) img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.whatIsAmaSectionNew > section > div:nth-of-type(2) > div:nth-of-type(1) {
+  font-size: 3rem !important;
+  font-weight: 600;
+  color: white;
+  font-family: var(--heading-font);
+}
+
+.whatIsAmaSectionNew > section > div:nth-of-type(2) > div:nth-of-type(2) img {
+  width: 60px;
+  height: auto;
+  margin: 15px 0px;
+}
+
+.whatIsAmaSectionNew > section > div:nth-of-type(2) > div:nth-of-type(3) {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--body-font);
+  margin-bottom: 35px;
+  color: rgb(238, 238, 238);
+}
+
+.whatIsAmaSectionNew > section > div:nth-of-type(2) > div:nth-of-type(4) span {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.foundOutMoreButton {
+  padding: 13px 25px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border: 0px;
+  outline: none;
+  margin-bottom: 25px;
+}
+
+.foundOutMoreButton a {
+  color: white;
+}
+
+/* School club made by Prasenjeet symon */
+.schoolClubSectionOne {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.schoolClubSectionOne > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 80px;
+  text-align: center;
+  background-color: rgb(0, 0, 255, 0.6);
+}
+
+.schoolClubSectionOne > div:nth-of-type(1) > div:nth-of-type(1) {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  font-family: var(--heading-font);
+}
+
+.schoolClubSectionOne > div:nth-of-type(1) > div:nth-of-type(2) {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 10px;
+  font-family: var(--body-font);
+}
+
+/* Tack partner section */
+#TACKSchoolPartnership {
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#TACKSchoolPartnership > div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#TACKSchoolPartnership > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#TACKSchoolPartnership > div:nth-of-type(1) p {
+  margin: 5px 0px;
+  font-family: var(--body-font);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 700px) {
+  .whatIsAmaSectionNew > section {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+
+  .whatIsAmaSectionNew > section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .schoolClubSectionOne {
+    grid-template-columns: 1fr 0fr;
+    height: auto;
+  }
+
+  .schoolClubSectionOne > div:nth-of-type(1) {
+    padding: 80px 15px;
+  }
+}

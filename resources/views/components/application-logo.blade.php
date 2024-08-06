@@ -1,0 +1,1 @@
+<img class="logo-dark logo-img logo-img-lg" src="{{ asset('../img/home page/logosquare.png') }}" srcset="{{ asset('../img/home page/logosquare.png') }} 2x" alt="logo-dark">
